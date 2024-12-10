@@ -1,0 +1,47 @@
+/* style page menu  */
+.titlemenu{
+  display: flex;
+  justify-content: center;
+  margin: 3em 0;
+}
+.titlemenu h1{
+  font-size: 3em;
+  text-shadow: #6a8195e6 3px 3px 3px;
+}
+.boxmenu,
+.boxtype,
+.boxmenu h2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+table td{
+  text-align: center;
+}
+table tr{
+  margin-bottom: 25px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.platname{
+  display: inline-block;
+}
+.platprix{
+  display: inline-block;
+}
+table {
+  border-spacing: 20px;
+}
+hr {
+  border: 0;
+  height: 1px;
+  width: 300px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), #000000d9, rgba(0, 0, 0, 0.1));
+  margin: 30px 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+  

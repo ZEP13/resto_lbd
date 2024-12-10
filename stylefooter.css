@@ -1,0 +1,45 @@
+.bigcontainer{
+    padding: 20px 0;
+    background: #212529;
+}
+.containerfoot{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 25px 0;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+span{
+    margin-bottom: 5px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 700px){
+    .containerfoot{
+        flex-direction: column;
+    }
+    .box{
+        margin: 25px 0;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+.payement{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+h4{
+    font-size: 1.5rem;
+    color: beige;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* style profil */
+.titleprofil{
+    text-align: center;
+    padding: 20px 0;
+}
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+th{
+    padding: 10px;
+    text-align: left;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+}
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #e9e9e9;
+}
+.datauser, .datareserv {
+    margin: 20px 0;
+    padding: 0 50px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+
+.link {
+    text-align: center;
+    margin: 15px 0;
+  }
+.link a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
